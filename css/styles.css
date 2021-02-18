@@ -1,9 +1,11 @@
 @font-face {
   font-family: "BootsAndSpurs";
-  src: url(../fonts/BootsAndSpurs.ttf) format(truetype);
+  src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
 }
 
-h1 h2 .logo {
+h1,
+h2,
+.logo {
   font-family: "BootsAndSpurs", Tahoma, Geneva, Verdana, sans-serif;
 }
 
