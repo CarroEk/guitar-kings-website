@@ -23,6 +23,25 @@
         </header>
         <main>
             <h1>Contact Us</h1>
+            <form action="submit.php" method="POST">
+                    <label for="name">Full name</label>
+                    <input type="text" name="name" id="name">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" id="email">
+                    <label for="guitar">Guitar</label>
+                    <select name="guitar" id="guitar">
+                        <option value="Adirondack_Red">Adirondack Red</option>
+                        <option value="Adirondack_Red">Adirondack Red</option>
+                        <option value="Adirondack_Red">Adirondack Red</option>
+                        <option value="Adirondack_Red">Adirondack Red</option>
+                    </select>
+                    <label for="email-updates">Sign up for email updates.</label>
+                    <input type="checkbox" name="email-updates" id="email-updates">
+
+                    <label for="message">Message</label>
+                    <textarea name="message" id="message"></textarea>
+                <input type="submit" value="Send Now" class="cta">
+            </form>
         </main>
         <footer>Copyright &copy;</footer>
     </body>

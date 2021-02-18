@@ -29,6 +29,7 @@ header a {
   font-size: 1.5em;
   border-radius: 8%;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
 .cta-sale {
@@ -63,4 +64,9 @@ footer {
 
 .profilepicture {
   border-radius: 50%;
+}
+
+/* Contact page */
+label {
+  font-family: "Roboto";
 }
