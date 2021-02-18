@@ -46,3 +46,21 @@ header a {
 footer {
   text-align: center;
 }
+
+/* Home page */
+.welcome {
+  background-image: url("../pictures/home-header.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  min-height: 70vh;
+}
+
+.playingguitar {
+  border-radius: 106px;
+}
+
+.profilepicture {
+  border-radius: 50%;
+}
