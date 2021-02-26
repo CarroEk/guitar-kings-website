@@ -13,6 +13,8 @@ h2,
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
+/* Header footer */
+
 header,
 footer {
   background-color: #202020;
@@ -23,13 +25,36 @@ header a {
   color: #ffffff;
 }
 
+nav li {
+  padding: 0px;
+  display: inline-block;
+  margin: ;
+}
+
+a {
+  text-decoration: none;
+}
+nav ul {
+  padding: 0px;
+}
+.current {
+  text-decoration: underline;
+}
+
+/* Call-to-action */
 .cta {
   background-color: #bb0000;
   color: #ffffff;
-  font-size: 1.5em;
-  border-radius: 8%;
+  font-size: 0, 8em;
+  border-radius: 5px;
   text-decoration: none;
   text-transform: uppercase;
+  padding: 10px 75px;
+  font-family: "roboto";
+}
+
+.view {
+  padding: 10px 30px;
 }
 
 .cta-sale {
