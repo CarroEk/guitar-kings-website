@@ -9,7 +9,9 @@ h2,
   font-family: "BootsAndSpurs", Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.product-list h2 {
+.product-list h2,
+li,
+p {
   font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -23,12 +25,12 @@ footer {
 
 header a {
   color: #ffffff;
+  padding: 15px;
 }
 
 nav li {
   padding: 0px;
   display: inline-block;
-  margin: ;
 }
 
 a {
@@ -36,9 +38,14 @@ a {
 }
 nav ul {
   padding: 0px;
+  margin-left: 100px;
 }
 .current {
   text-decoration: underline;
+}
+header {
+  display: flex;
+  align-items: center;
 }
 
 /* Call-to-action */
@@ -81,6 +88,7 @@ footer {
   background-position-x: right;
   background-position-y: bottom;
   min-height: 70vh;
+  position: relative;
 }
 
 .playingguitar {
