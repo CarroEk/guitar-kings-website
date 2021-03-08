@@ -21,9 +21,10 @@
                 </ul>
             </nav> 
         </header>
-        <main>
+        <main class="contact">
             <h1>Contact Us</h1>
             <form action="submit.php" method="POST">
+                <div class="form-wrapper">
                     <label for="name">Full name</label>
                     <input type="text" name="name" id="name">
                     <label for="email">Email</label>
@@ -40,6 +41,7 @@
 
                     <label for="message">Message</label>
                     <textarea name="message" id="message"></textarea>
+                </div>
                 <input type="submit" value="Send Now" class="cta">
             </form>
         </main>
